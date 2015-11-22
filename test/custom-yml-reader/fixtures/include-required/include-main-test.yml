@@ -1,0 +1,4 @@
+subject: Include nested yml files
+my-nested:
+  !include nested-level-1-test.yml
+

@@ -1,0 +1,7 @@
+test: me
+
+---
+then: foo
+
+--- And this
+again: bar

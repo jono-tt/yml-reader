@@ -1,0 +1,7 @@
+my-foo:
+  my-bar:
+    - 1
+    - 2
+    - 3
+  tiny:
+    !include "level2/nested-level-2-test1.yml"

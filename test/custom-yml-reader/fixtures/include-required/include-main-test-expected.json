@@ -1,0 +1,40 @@
+{
+  "subject": "Include nested yml files",
+  "my-nested": {
+    "my-foo": {
+      "my-bar": [
+        1,
+        2,
+        3
+      ],
+      "tiny": {
+        "player": {
+          "first-name": "Andy",
+          "last-name": "Wobler",
+          "cousins": [
+            {
+              "female": {
+                "first-name": "Sue",
+                "last-name": "Bobby",
+                "cousins": [
+                  {
+                    "male": {
+                      "first-name": "Harry",
+                      "last-name": "Kipper"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "male": {
+                "first-name": "Harry",
+                "last-name": "Kipper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

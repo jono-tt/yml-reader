@@ -1,0 +1,3 @@
+subject: Substitute Env Vars
+my-sub-env-var: !env MY_SERVICE_HOST
+my-sub-env-var-partial: !env "This is my {{ MY_SERVICE_HOST }} test"

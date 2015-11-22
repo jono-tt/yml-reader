@@ -1,0 +1,5 @@
+subject: Include optional nested yml files
+my-nested-exists:
+  !include? nested-exists-test.yml
+my-nested-not-exists:
+  !include? nested-not-exists.yml

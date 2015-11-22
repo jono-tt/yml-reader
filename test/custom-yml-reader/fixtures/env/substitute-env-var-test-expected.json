@@ -1,0 +1,5 @@
+{
+  "my-sub-env-var": "Test Host",
+  "my-sub-env-var-partial": "This is my Test Host test",
+  "subject": "Substitute Env Vars"
+}

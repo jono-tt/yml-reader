@@ -1,0 +1,6 @@
+player:
+  first-name: Andy
+  last-name: Wobler
+  cousins:
+    - !include level3/nested-level-3-test.yml
+    - !include nested-level-2-test2.yml

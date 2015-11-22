@@ -1,0 +1,40 @@
+{
+  "name": "yml-reader",
+  "version": "0.0.1",
+  "description": "NodeJS based yml reader that extends the functionaliy of js-yml and allows combining yml files using an include directive",
+  "keywords": [
+    "yaml",
+    "config",
+    "configuration",
+    "kubenetes"
+  ],
+  "homepage": "https://github.com/jono-tt/yml-reader",
+  "author": "jono-tt <jono-tt@users.noreply.github.com>",
+  "contributors": [
+    "jono-tt"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jono-tt/yml-reader"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "bin/"
+  ],
+  "bin": {
+    "yml-reader": "bin/yml-reader.js"
+  },
+  "dependencies": {
+    "js-yaml": "~3.4.4",
+    "argparse": "^1.0.2",
+    "lodash": ">= 3.2.0 < 4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec"
+  }
+}
