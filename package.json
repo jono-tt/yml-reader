@@ -1,6 +1,6 @@
 {
   "name": "yml-reader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeJS based yml reader that extends the functionaliy of js-yml and allows combining yml files using an include directive",
   "keywords": [
     "yaml",
